@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Bootstrap Internship</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">MyBootstrapSite</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+    <div class="container">
+        <h1 class="display-4 fw-bold">Welcome to My Bootstrap Site</h1>
+        <p class="lead">Explore responsive design and modern UI components</p>
+        <a href="about.html" class="btn btn-primary btn-lg">Learn More</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://th.bing.com/th/id/OIP.wlI-yEUE1epe36twhKunrgHaFj?w=213&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="card-img-top" alt="Feature 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Nav-bar</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="data:image/webp;base64,UklGRhAKAABXRUJQVlA4IAQKAADwPQCdASpHAdIAPp1OoUwlpCOiInUaSLATiWVu4XKQ5hdsot6+mUPSX7/TXhMb6V/b+6V186zm9Gzi/oe9/a+3eXYf9jx4E2KUnymvHOmK/1vL3+2763yQCBm0mgeI9pNA8R7SViJUJJicFIn4o/bo6RuOpNk8rizh3oTmEiEZYcoeO7r5OHg1tLS0tLS0tLSzIyMjI0KXeKI8UR4ojxRHiiPFEZskwCJGhO7IyHmLXK+bY/nChqCtfv6QgZbFrYfPP5YB5jXgg4x+S8A5XhPpz/IUpRRni0v/iGkfDB3QM/nBudYH8Vyx0QKevHzLg/cxDuyW2n0xCV1BY/B+XChqCEmYkciA+UEARNG2rUD2HzdAbpetvokEbVxD7nSvyTDXToRF9vzmUg4bgUjJzpLvzErmOLiQYSm+cA4gePTow9Iw927g/GGunQnzo+3xfdM7VT3vdwonuj9jioJcB/EXRwlHI22X4iPdFoT6c/yEwtiFJ/sNzjCjihMZEyYHCx3CbsCe5hIdsBzVVnk91p5YUrX8kw1sNqo5kLECGIYyCS9WuUA1LTuCBHWwRTB4CjPmYNoTgbwTgVnQn05/kJhdlJb/wTn5aHDqudFjnFz3h40gZT4pOhPpz++K6wyR9g6odbqJQHBwcqiXChqCx+IzZJjrMzpz+9AA/v6FceTtbVetReO3QQwornHM7WxdAL+aocT8XHVz53fiw7q8IEmNqlfLofra6ivh2/w8C3wUm9bXZYy0OiUDoU8RhUc1t2wz+YJPS4pF9kj13tU9LbSnoT/Y1mz4PCQYbOtnl623D5Bo+wO+gsqvsvc8oENi4YQJtZ1O1UycRLwTE5EmmFfmBooCbKrCbguGYtll9PY6URzl47n4CjwdB/kd59nxACF84tIf7wbb1LnHRv2wAABjnEtAgAB3y/CK4/ZB7YURY8rz1tt28B1GzoWzrG6iYdY16IWjp3Dwv94oiFdMlVOyVApoubgo8Uts47tkmARUvYm4qm4SMsLMtbC1ykFrdXYM2N5/macn43G11Zn7tRE6gwPJCpYfKSZ60NY9V7e/GNR4q/Wl7yoWsespLBP+I4A/eYEdRg4ny6oDUiVXxq0fBmczcjXbx9MLcBo1/XJzH2BxKNPJ+BnEA4TiUgGdABFLrkeWZzH8okZTKf9xuVK2xHx0yPMNqbvIy9zU/f3s56Nq44NlAOHizOMO77jv6mJr7UB17+6CS3APHtu9RsMnFP+dBAhE+asURULzBqv/N/h2eA+lK+wgA+kSfOnSYNfpvCJQDmP7a4v28mEO5Dlv3wexSfb+ooAPU5R98XaxISp6m8TYPHt+E/CANP0OST9JyITRq9KpHvknSQgVgvQ26fNh5bykGSHDkHpxIhSqLNVku20+si69EEreCDa+/kmvoaa4cicDYHnsZCWbWOn78AldNGLaGHF3KtOlBAvBuIUAHUBZpl0NY+PtgVIoYBjBCBawgIKDrnlo3pK9H/lEsmrLMo3JMSaUoHENV7PZUFnRpwmentbUapKaSRNaJBMn/OyhilDmMW2Vd0TjW1ZkJOEyIQ668KMrGu898m1r0QUuPQPgP0+ZbYrYjC+i3sX9rAKkKTiYaJALaAQFdQ+FJ27EQ8AejJpGxxmT56J0VNUpPMuDgoyupIYv34QG6YYTmJIFoqOxMnbubdsIIPjcA2p/RD4v4clmmBWWM8WG9YgOQN+Cwhj2HNdxStm4LXjkR5n1igXxvIibgiB1wLmjxG7oHOuchXAfRmT1lemNYuQBwjAYGJwfvXKMyH4M8o5uIgqPkIkqOzqafXY3YfEO0J121uNFY4hS1dcNqCZTUq7K5cXnbPnAMCBxYLdP2rUo0rGF2XnKnVJd84aY4sCMwKliYRR82J8ucR6oHRGE5ACZsJcwSx9eCI0/ttnoHvKrcQ2GIrPrrIiMcQzE8c8TSvuQRA+eJm1Qe+KH+G23a7QP9LQ6y9NelmRrC27PZMpgTXSUR+OusXfnj/p+vi+xy/JQzr8A1UBU+QSkLc+GhHynZu2zzWAAMY2MPrtmRdRDeCWYO6EDOzYqSmrHbx+DPRkUtC/rUDqGas2x1RKbJUfs7JCC0eK5Sc1W4A4lQy0GMrDDNbZop+DfG8CVIBlg2DS1sX40UkA5BHgMR3Zrvy63soVWywxKDQkKFqUyRATWMEOLckW9EHCJ8duhMFE2fkWoGe8dYObSV4mPdMBkLNstrl3Qd3qHHSGMcL8zqe4vKqJrQXlCk1exHoki2Kf8lpaZyzL76gvFd5vdXMXY1MZUgC+nALlLkvXSg+upDo1aMXjaSTxzBYX9BxEFTcwp3mA6eX3foZBUC+3dsMXARRWTJ0TS+ivfmY/pM2/rm/8QWwT35sgcfKlyGZ4ZV/Bv05LLlPf75mtWCTy8JdEs6u7eVgN/lLfdH6sU3+k34xdhE9/VRI8huTYhNswDXn1kG9ABS8pBHP+yofGUiLBbY4b2noGcZdjpg8wspgY+OAiqv5CQGexdbSnbaWGFGP+YEqlu6t6I4jIpkwlMaQ8JosNhO3amW2GFmLxpK6SZ1/EEelxG34p2n9rQYOMDL9Nfp5JRYHwnzOJfz/3sGdoHujQia/kruUyus0ludlbLx0IJgcnjyu0uAbVxBNKSNYZbMX1QbKHXhB1ZGzxv6jERIRgsCUS700Kdcc8CuwFBuCLrENjH7HL4gDcn8mDYjl+Wanlec6RVtjnaKQ2TReNhywQKk2f9sXdYaex4muBq2NxNDDOMBwYvQAWU7m1xGAqfDgq2nH848egBXwteYbjXTLPDCt17XhcfUhnsnTCo41fQNsoK4DWMsSd+y6u9KpSaG8DUn3I0XEe1GX9GU80Q7Dw5fnwvcKgGSIjQqPw7oQIi5W0RrfiZJNnX+zZbdgOT3Y5jhdDyL6eqej1ZbdxTHIrPfB5WT5mYpT5vtevik/WGAqYpb/nMs8QfdqY27zaw9l1BzKlj5wtaVLiU3cgUHuQPCshIfyDBtcgTHwrLdioTShHD/+b6vBT6nx4IyIo5u3q8gqzNmuoWizFnOHXBkRQyXeMpkePNEKvZ6lpMBA+yWzBlE3+Eyl85V0SKTPwDkbpGKKSXnbYtaSfyBcPbWRuYnLLBb+WeLf6Qbo/JAStNA66NQvjXkJidDIDUfkELyPtUUB1aAK808Hi8p5APiscajp/CUGP/s13YUPHz1KkG1xj1bSn0dn5VEiED1qc4e7HrajEIpNYDtKlzfwtUbrF8X6vlqR8+j/0D35lUwSiJ50HYqJWKNfE6rlSgataoiH5qt/fwm7d4m8/u3KCDgrn2dFDZAPMw2L3Du0XHaNqL5ORRJ0To1pir+LXJAwQFmiKh2iHgQh784YrPMW11SxSvQJ0BGB4fxdtdUsUr4nXRdab11ZZC/vJgbtGeTLpoOHmQAA==" class="card-img-top" alt="Feature 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap Card</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100">
+                    <img src="https://th.bing.com/th/id/OIP.W59Q5cCVyDjFS-D9my02sAHaD4?w=289&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3" class="card-img-top" alt="Feature 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Bootstrap Modal</h5>
+                        <p class="card-text"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center">
+    <div class="container">
+        <p>&copy; 2025 MyBootstrapSite. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

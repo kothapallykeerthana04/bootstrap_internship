@@ -1,0 +1,23 @@
+/* Custom Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero {
+    background: url('https://via.placeholder.com/1500x500') no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 30px 0;
+}
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
